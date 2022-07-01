@@ -1,0 +1,25 @@
+.main-div mat-card{
+  padding: 0px;
+}
+.login-form{
+  padding: 20px;
+}
+.forgot-button{
+  text-decoration: none;
+}
+.sign-button{
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-radius: 20px;
+  color: white;
+  background-image: linear-gradient(to right, rgb(10, 180, 214) , rgb(64, 64, 221));
+}
+hr{
+  border:1px solid grey;
+  margin: 30px auto 20px auto;
+  width: 90%;
+}
+.signup-button{
+  text-decoration: none;
+  margin-left: 5px;
+}

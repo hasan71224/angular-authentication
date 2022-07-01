@@ -1,0 +1,25 @@
+<section fxLayoutAlign="center center" fxFlexFill class="main-div">
+  <mat-card fxFlex="25">
+    <mat-toolbar fxLayoutAlign="center center" color="primary">
+      Sign in
+    </mat-toolbar>
+    <form class="login-form" fxLayoutAlign="stretch" fxLayout="column">
+      <mat-form-field>
+        <mat-label>Mobile Number</mat-label>
+        <input matInput placeholder="Mobile Number">
+      </mat-form-field>
+
+      <mat-form-field>
+        <mat-label>password</mat-label>
+        <input matInput placeholder="password" type="password">
+      </mat-form-field>
+
+      <a class="forgot-button" href="" fxLayoutAlign="end ">Forgot Password?</a>
+
+      <button mat-raised-button type="submit" class="sign-button mt-3">SIGN IN</button>
+      <hr>
+      <p fxLayoutAlign="end">Not a member?<a class="signup-button" href="/registration" >Sign Up</a></p>
+    </form>
+
+  </mat-card>
+</section>
